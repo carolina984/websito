@@ -1,0 +1,40 @@
+body{
+    background-image:url(assets/website_backgrounds_lilas.png);
+    background-size: cover;
+}
+
+.title{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navi{
+    position: absolute;
+    background-color: rgb(220, 223, 225);
+    box-shadow: 5px 10px 5px rgba(63, 64, 64, 0.4);
+    width: 35vw;
+    padding: 1%;
+    left: 13%;
+    top: 30%;
+    text-align: center;
+}
+.navi p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+.about{
+    position: absolute;
+    background-color: rgb(220, 223, 225);
+    box-shadow: 5px 10px 5px rgba(63, 64, 64, 0.4);
+    width: 35vw;
+    padding: 1%;
+    left: 13%;
+    top: 40%;
+    text-align: center;
+}
