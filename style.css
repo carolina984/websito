@@ -1,40 +1,72 @@
-body{
-    background-image:url(assets/website_backgrounds_lilas.png);
-    background-size: cover;
+body {
+  background-image: url(assets/website_background_cold.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: #3D2F42;
+  margin: 0;
+  padding: 0;
 }
 
-.title{
-    position: absolute;
-    width: 60vw;
-    height: auto;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+.title {
+  display: block;
+  width: 53vw;
+  height: auto;
+  margin: 9vh auto 7vh auto; /* increased bottom space */
 }
 
-.navi{
-    position: absolute;
-    background-color: rgb(220, 223, 225);
-    box-shadow: 5px 10px 5px rgba(63, 64, 64, 0.4);
-    width: 35vw;
-    padding: 1%;
-    left: 13%;
-    top: 30%;
-    text-align: center;
-}
-.navi p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100%;
-    margin: 0;
+.title, h1, h2 {
+  font-family: 'Playfair Display', serif;
 }
 
-.about{
-    position: absolute;
-    background-color: rgb(220, 223, 225);
-    box-shadow: 5px 10px 5px rgba(63, 64, 64, 0.4);
-    width: 35vw;
-    padding: 1%;
-    left: 13%;
-    top: 40%;
-    text-align: center;
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem; /* smaller than before */
+  text-align: center;
+  color: #3D2F42;
+  margin-top: 0.4em;
+  margin-bottom: 1em;
+}
+
+.navi {
+  color: #2E2B36;
+  background-color: #eae2d1;
+  border: 2px solid #2E2B36;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 40vw;
+  padding: 1rem 1.5rem;
+  margin-left: 15vw;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.navi p {
+  font-size: 1rem; /* slightly larger text */
+  margin: 0;
+  font-weight: bold;
+}
+
+.about {
+  color: #2E2B36;
+  background-color: #eae2d1;
+  border: 2px solid #2E2B36;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 40vw;
+  padding: 1.5rem;
+  margin-left: 15vw;
+  margin-bottom: 5rem;
+}
+
+.about h1 {
+  text-align: left;
+}
+
+.about p {
+  text-align: left;
+  margin-bottom: 1em;
+  line-height: 1.5;
 }
